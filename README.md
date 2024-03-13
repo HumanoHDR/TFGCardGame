@@ -1,7 +1,6 @@
 # TFGCardGame
 Juego de cartas creado como proyecto final de grado
 
-
 UML:
 **Entidades Principales**
     Usuario: Representa a las personas que usan la aplicación.
