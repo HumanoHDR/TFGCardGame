@@ -3,12 +3,17 @@ Juego de cartas creado como proyecto final de grado
 
 UML:
 **Entidades Principales**
+
 	Usuario: Representa a las personas que usan la aplicación.
+ 
     Carta: Representa cada carta del juego, con sus atributos y habilidades.
+    
     Mazo: Colección de cartas seleccionadas por un usuario para jugar.
+    
     Partida: Representa una sesión de juego entre dos usuarios.
     Torneo: Un conjunto de partidas organizadas en una estructura competitiva. (Opcional)
 **Relaciones**
+
     Un Usuario puede tener varios Mazos.
     Un Mazo contiene varias Cartas.
     Una Partida involucra dos Usuarios y sus respectivos Mazos.
