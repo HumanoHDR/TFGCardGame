@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFGCardGame.Server", "TFGCardGame.Server\TFGCardGame.Server.csproj", "{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "tfgcardgame.client", "tfgcardgame.client\tfgcardgame.client.esproj", "{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {327E7F92-636D-407F-87A5-7CBAB3EA4A59}
+	EndGlobalSection
+EndGlobal
