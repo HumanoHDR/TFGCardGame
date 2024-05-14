@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\..\\tfgcardgame.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

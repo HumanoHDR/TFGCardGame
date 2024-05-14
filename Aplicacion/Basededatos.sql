@@ -1,4 +1,3 @@
--- Crear la tabla de Usuarios
 CREATE TABLE IF NOT EXISTS User (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
@@ -6,14 +5,31 @@ CREATE TABLE IF NOT EXISTS User (
     password VARCHAR(255) NOT NULL
 );
 
--- Crear la tabla de Cartas
+CREATE TABLE IF NOT EXISTS Effect (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    effect_description varchar(255),
+    doncost int,
+    deaddon int,
+    effect varchar(12)
+);
+
 CREATE TABLE IF NOT EXISTS Card (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    type VARCHAR(255),
-    attack INT,
-    defense INT,
-    effect VARCHAR(500)
+    id VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(255),
+    type VARCHAR(100),
+    rarity VARCHAR(50),
+    cost INT,
+    power INT,
+    attribute VARCHAR(100),
+    counter INT,
+    color VARCHAR(50),
+    arc_1 VARCHAR(100),
+    arc_2 VARCHAR(100),
+    arc_3 VARCHAR(100),
+    effect_1 VARCHAR(255),
+    effect_2 VARCHAR(255),
+    FOREIGN KEY (effect_1) REFERENCES Effect(id)
+    FOREIGN KEY (effect_2) REFERENCES Effect(id)
 );
 
 CREATE TABLE IF NOT EXISTS Deck (
@@ -25,7 +41,7 @@ CREATE TABLE IF NOT EXISTS Deck (
 
 CREATE TABLE IF NOT EXISTS Deck_Card (
     deck_id INT,
-    card_id INT,
+    card_id varchar(12),
     PRIMARY KEY (deck_id, card_id),
     FOREIGN KEY (deck_id) REFERENCES Deck(id),
     FOREIGN KEY (card_id) REFERENCES Card(id)
