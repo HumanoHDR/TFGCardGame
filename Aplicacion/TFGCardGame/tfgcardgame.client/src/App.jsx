@@ -1,12 +1,29 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import MainView from './MainView';
-import CardList from './CardList'; // Asegúrate de que el componente de lista de cartas está correctamente importado
-
+import CardList from './CardList';
+import Authentication from './Authentication';
 function App() {
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    useEffect(() => {
+        const isLogged = localStorage.getItem('isLoggedIn') === 'true';
+        setIsLoggedIn(isLogged);
+    }, []);
+
+    const handleLogin = () => {
+        localStorage.setItem('isLoggedIn', 'true');
+        setIsLoggedIn(true);
+    };
+
+    const handleLogout = () => {
+        localStorage.removeItem('isLoggedIn');
+        setIsLoggedIn(false);
+    };
     return (
         <Router>
-            <div>
+            <div className="App">
+                
                 <Routes>
                     <Route path="/decks" element={<CardList />} />
                     <Route path="/" element={<MainView />} />
@@ -15,5 +32,4 @@ function App() {
         </Router>
     );
 }
-
-export default App;
+export default App
