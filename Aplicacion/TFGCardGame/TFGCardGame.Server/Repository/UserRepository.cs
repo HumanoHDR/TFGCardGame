@@ -56,5 +56,10 @@ namespace TFGCardGame.Server.Repository
         {
             throw new NotImplementedException();
         }
+
+        public bool LoginUser(string username, string passwd)
+        {
+            return _context.Users.Any(x => x.Username == username && x.Password== passwd);
+        }
     }
 }

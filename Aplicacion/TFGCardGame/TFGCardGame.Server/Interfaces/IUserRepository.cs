@@ -14,5 +14,6 @@ namespace TFGCardGame.Server.Interfaces
         bool UpdateUser(User user);
         bool DeleteUser(User user);
         bool Save();
+        bool LoginUser(string username, string passwd);
     }
 }

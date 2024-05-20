@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2i4BjvdLN3m6V4DDgLq+0ojA2xfQTjxXeU6c+QzM4f9l1H4Es6AcJiV//yZPT5GWywBxbUzuEppZEG3yBJCL7g==",
+  "dgSpecHash": "oRyVhUQQOVNIHZ5+VTyjkeK3Yp1ln4xlNfo4wVRZdyHyaBMBvl9SO5zO4iQS5eT7lGZSnSZm0DHkQL9bX6Dvvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\TFGCardGame.Server.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\luisv\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
-    "C:\\Users\\luisv\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.4\\microsoft.aspnetcore.spaproxy.8.0.4.nupkg.sha512",
+    "C:\\Users\\luisv\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.5\\microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

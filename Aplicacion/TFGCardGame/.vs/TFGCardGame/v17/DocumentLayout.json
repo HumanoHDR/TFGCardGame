@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\interfaces\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\interfaces\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}|tfgcardgame.client\\tfgcardgame.client.esproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}|tfgcardgame.client\\tfgcardgame.client.esproj|solutionrelative:tfgcardgame.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}|tfgcardgame.client\\tfgcardgame.client.esproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.client\\src\\authentication.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -23,31 +47,7 @@
       "RelativeMoniker": "D:0:0:{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}|tfgcardgame.client\\tfgcardgame.client.esproj|solutionrelative:tfgcardgame.client\\src\\cardlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisv\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.server\\interfaces\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBE82DA4-3EC5-4681-89B2-33DB1B923DF3}|TFGCardGame.Server\\TFGCardGame.Server.csproj|solutionrelative:tfgcardgame.server\\interfaces\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2ACDBD0-ECF3-4962-8EDC-54BF2ABD2506}|tfgcardgame.client\\tfgcardgame.client.esproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\tfgcardgame\\tfgcardgame.client\\src\\mainview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -65,11 +65,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Authentication.jsx",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\tfgcardgame.client\\src\\Authentication.jsx",
               "RelativeDocumentMoniker": "tfgcardgame.client\\src\\Authentication.jsx",
@@ -77,25 +77,23 @@
               "RelativeToolTip": "tfgcardgame.client\\src\\Authentication.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-15T10:44:55.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T10:44:55.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\tfgcardgame.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "tfgcardgame.client\\src\\App.jsx",
               "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\tfgcardgame.client\\src\\App.jsx",
               "RelativeToolTip": "tfgcardgame.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-15T10:37:00.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T10:37:00.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Login.jsx",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\tfgcardgame.client\\src\\Login.jsx",
               "RelativeDocumentMoniker": "tfgcardgame.client\\src\\Login.jsx",
@@ -103,12 +101,11 @@
               "RelativeToolTip": "tfgcardgame.client\\src\\Login.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-15T10:34:00.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T10:34:00.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "index.d.ts",
               "DocumentMoniker": "C:\\Users\\luisv\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
@@ -116,12 +113,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
               "ViewState": "AQIAANgQAAAAAAAAAAAswNcQAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-15T09:57:33.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T09:57:33.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Controllers\\UserController.cs",
@@ -129,25 +125,24 @@
               "RelativeToolTip": "TFGCardGame.Server\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAcwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T20:10:32.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T20:10:32.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Repository\\UserRepository.cs",
               "RelativeToolTip": "TFGCardGame.Server\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwD0AAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T09:49:54.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "CardList.jsx",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\tfgcardgame.client\\src\\CardList.jsx",
               "RelativeDocumentMoniker": "tfgcardgame.client\\src\\CardList.jsx",
@@ -155,8 +150,7 @@
               "RelativeToolTip": "tfgcardgame.client\\src\\CardList.jsx",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-14T17:52:42.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T17:52:42.216Z"
             },
             {
               "$type": "Document",
@@ -172,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Program.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Program.cs",
@@ -180,31 +174,30 @@
               "RelativeToolTip": "TFGCardGame.Server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:00:59.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T16:00:59.437Z"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "TFGCardGame.Server\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T09:42:22.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CardRepository.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Repository\\CardRepository.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Repository\\CardRepository.cs",
@@ -212,25 +205,24 @@
               "RelativeToolTip": "TFGCardGame.Server\\Repository\\CardRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:32:04.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:32:04.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Cardscontroller.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Controllers\\Cardscontroller.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Controllers\\Cardscontroller.cs",
               "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Controllers\\Cardscontroller.cs",
               "RelativeToolTip": "TFGCardGame.Server\\Controllers\\Cardscontroller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAawCAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T08:31:58.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "ICardRepository.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\TFGCardGame\\TFGCardGame.Server\\Interfaces\\ICardRepository.cs",
               "RelativeDocumentMoniker": "TFGCardGame.Server\\Interfaces\\ICardRepository.cs",
@@ -238,8 +230,7 @@
               "RelativeToolTip": "TFGCardGame.Server\\Interfaces\\ICardRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T08:28:51.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T08:28:51.244Z"
             },
             {
               "$type": "Document",
@@ -251,8 +242,7 @@
               "RelativeToolTip": "tfgcardgame.client\\src\\MainView.css",
               "ViewState": "AQIAACsAAAAAAAAAAAAmwD0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-14T17:52:36.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T17:52:36.603Z"
             }
           ]
         }

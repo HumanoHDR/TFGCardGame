@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TFGCardGame.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d3434db4724c1225d9742790d53c04634c2e3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+072c1b2ae249c8289e9f893a5c77623ced9a1aea")]
 [assembly: System.Reflection.AssemblyProductAttribute("TFGCardGame.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TFGCardGame.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
