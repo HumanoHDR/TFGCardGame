@@ -1,0 +1,15 @@
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\bin\Debug\net8.0\CNegocio.deps.json
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\bin\Debug\net8.0\CNegocio.dll
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\bin\Debug\net8.0\CNegocio.pdb
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\bin\Debug\net8.0\CDatos.dll
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\bin\Debug\net8.0\CDatos.pdb
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.csproj.AssemblyReference.cache
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.AssemblyInfoInputs.cache
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.AssemblyInfo.cs
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.csproj.CoreCompileInputs.cache
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.csproj.Up2Date
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.dll
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\refint\CNegocio.dll
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\CNegocio.pdb
+C:\Users\luisv\source\repos\OneCardGame\CNegocio\obj\Debug\net8.0\ref\CNegocio.dll

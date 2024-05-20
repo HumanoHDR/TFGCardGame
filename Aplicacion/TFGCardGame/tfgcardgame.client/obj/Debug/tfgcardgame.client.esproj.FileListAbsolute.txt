@@ -1,1 +1,0 @@
-C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\TFGCardGame\tfgcardgame.client\obj\Debug\tfgcardgame.client.esproj.CoreCompileInputs.cache

@@ -1,6 +1,0 @@
-@TFGCardGame.Server_HostAddress = http://localhost:5261
-
-GET {{TFGCardGame.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

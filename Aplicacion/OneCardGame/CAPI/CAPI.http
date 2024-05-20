@@ -1,0 +1,6 @@
+@CAPI_HostAddress = http://localhost:5044
+
+GET {{CAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
