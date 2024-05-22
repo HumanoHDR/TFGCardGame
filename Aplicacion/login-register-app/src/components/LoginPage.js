@@ -18,8 +18,8 @@ const LoginPage = ({ setUser }) => {
     
     try {
       const response = await axios.post(`https://localhost:7042${endpoint}`, data);
-      const { username, email, type } = response.data;
-      const user = { username, email, type };
+      const { id, username, email, type } = response.data;
+      const user = { id, username, email, type };
       localStorage.setItem('user', JSON.stringify(user));
       setUser(user);
     } catch (error) {
@@ -57,13 +57,6 @@ const LoginPage = ({ setUser }) => {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-            <input
-              type="text"
-              placeholder="Type"
-              value={type}
-              onChange={(e) => setType(e.target.value)}
               required
             />
           </>

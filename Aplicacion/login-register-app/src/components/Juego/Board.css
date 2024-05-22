@@ -1,0 +1,171 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    height: 100vh; /* Hacer que el contenedor principal ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+  }
+  
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1vh 0;
+  }
+  
+  .player1 {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .player2 {
+    position: absolute;
+    top: 0;
+  }
+  
+  .hand {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vh;
+  }
+  
+  .don-fiel {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vh; /* Espacio pequeño desde la mano */
+  }
+  
+  .field {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vh; /* Espacio pequeño desde Don Fiel */
+  }
+  
+  .player1 .hand {
+    margin-bottom: 1vh;
+  }
+  
+  .player2 .hand {
+    margin-top: 1vh;
+  }
+  
+  .card, .leader-card {
+    border: 1px solid #000;
+    padding: 0.5vh;
+    border-radius: 0.5vh;
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+    position: relative;
+  }
+  
+  .card-power, .card-cost, .card-life {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 2vh;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vh;
+  }
+  
+  .card-power {
+    top: 0.5vh;
+    right: 0.5vw;
+  }
+  
+  .card-cost {
+    top: 0.5vh;
+    left: 0.5vw;
+  }
+  
+  .card-life {
+    bottom: 0.5vh;
+    right: 0.5vw;
+  }
+  
+  .player1 .leader-card {
+    position: fixed; /* Mantener el líder fijo */
+    right: 2vw; /* Posicionar al líder a la derecha */
+    top: 70%; /* Alinear al líder verticalmente */
+    transform: translateY(-50%);
+    z-index: 1; /* Asegurar que el líder esté detrás de las cartas */
+  }
+  
+  .player2 .leader-card {
+    position: fixed; /* Mantener el líder fijo */
+    right: 2vw; /* Posicionar al líder a la derecha */
+    top: 30%; /* Alinear al líder verticalmente */
+    transform: translateY(-50%);
+    z-index: 1; /* Asegurar que el líder esté detrás de las cartas */
+  }
+  
+  .actions {
+    position: absolute;
+    top: 50%;
+    right: 2vw; /* Espacio desde el borde derecho relativo al ancho de la ventana */
+    transform: translateY(-50%);
+    z-index: 100;
+  }
+  
+  .actions button {
+    padding: 1vh 2vw; /* Padding relativo a la altura y ancho de la ventana */
+    font-size: 2vh; /* Tamaño de fuente relativo a la altura de la ventana */
+    cursor: pointer;
+  }
+  
+  .actions div {
+    margin-top: 1vh; /* Añadir un pequeño margen superior al texto del turno */
+    font-size: 2vh; /* Tamaño de fuente relativo a la altura de la ventana */
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .player1 {
+    justify-content: flex-end;
+  }
+  
+  .player2 {
+    justify-content: flex-start;
+  }
+  
+  .actions {
+    position: absolute;
+    top: 50%;
+    right: 2vw;
+    transform: translateY(-50%);
+  }
+  

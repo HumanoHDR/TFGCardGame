@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj": {}
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj": {
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj",
         "projectName": "CDatos",
-        "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj",
+        "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config",

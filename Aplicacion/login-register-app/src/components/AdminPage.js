@@ -92,13 +92,6 @@ const AdminPage = () => {
           onChange={(e) => setNewUser({ ...newUser, password: e.target.value })}
           required
         />
-        <input
-          type="text"
-          placeholder="Type"
-          value={newUser.type}
-          onChange={(e) => setNewUser({ ...newUser, type: e.target.value })}
-          required
-        />
         <button type="submit">Create User</button>
       </form>
 

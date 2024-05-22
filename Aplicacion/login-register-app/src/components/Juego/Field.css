@@ -1,0 +1,32 @@
+.field {
+  display: flex;
+  gap: 1vw;
+}
+
+.card-wrapper {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.card-wrapper.selected {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.card-wrapper.inactive {
+  transform: rotate(90deg);
+}
+
+.attack-here-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5vh 1vw;
+  font-size: 1.5vh;
+  cursor: pointer;
+  z-index: 2;
+}

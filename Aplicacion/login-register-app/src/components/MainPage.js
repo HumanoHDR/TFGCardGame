@@ -1,23 +1,44 @@
 import React, { useState } from 'react';
 import AdminPage from './AdminPage';
+import DeckPage from './DeckPage';
+import GamePage from './GamePage';
 
 const MainPage = ({ user, setUser }) => {
-  const [showAdmin, setShowAdmin] = useState(false);
+  const [view, setView] = useState('menu');
 
   const handleLogout = () => {
     localStorage.removeItem('user');
     setUser(null);
   };
 
+  const renderContent = () => {
+    switch (view) {
+      case 'game':
+        return <GamePage user={user} setView={setView} />;
+      case 'deck':
+        return <DeckPage user={user} />;
+      case 'admin':
+        return <AdminPage />;
+      default:
+        return (
+          <div>
+            <button onClick={() => setView('game')}>Juego</button>
+            <button onClick={() => setView('deck')}>Deck</button>
+            {user.type === 'admin' && (
+              <button onClick={() => setView('admin')}>Administrador</button>
+            )}
+            <button onClick={handleLogout}>Log Out</button>
+          </div>
+        );
+    }
+  };
+
   return (
     <div>
-      <button onClick={() => alert('Jugar clicked')}>Jugar</button>
-      <button onClick={() => alert('Deck clicked')}>Deck</button>
-      {user.type === 'admin' && (
-        <button onClick={() => setShowAdmin(!showAdmin)}>Administrador</button>
+      {view !== 'menu' && (
+        <button onClick={() => setView('menu')}>Volver al menú</button>
       )}
-      <button onClick={handleLogout}>Log Out</button>
-      {showAdmin && <AdminPage />}
+      {renderContent()}
     </div>
   );
 };
