@@ -43,11 +43,27 @@ const AdminPage = () => {
   const handleEditSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`https://localhost:7042/api/User/${editingUser.id}`, editingUser);
+      const updatedUser = {
+        username: editingUser.username,
+        email: editingUser.email,
+        type: editingUser.type,
+      };
+      await axios.put(`https://localhost:7042/api/User/${editingUser.id}`, updatedUser);
       setEditingUser(null);
       fetchUsers(); // Refresh the list after editing
     } catch (error) {
-      console.error('Error updating user:', error);
+      if (error.response) {
+        console.error('Error response:', error.response.data);
+        if (error.response.data.errors) {
+          Object.entries(error.response.data.errors).forEach(([key, value]) => {
+            console.error(`${key}: ${value}`);
+          });
+        }
+      } else if (error.request) {
+        console.error('Error request:', error.request);
+      } else {
+        console.error('Error message:', error.message);
+      }
     }
   };
 
@@ -90,6 +106,13 @@ const AdminPage = () => {
           placeholder="Password"
           value={newUser.password}
           onChange={(e) => setNewUser({ ...newUser, password: e.target.value })}
+          required
+        />
+        <input
+          type="text"
+          placeholder="Type"
+          value={newUser.type}
+          onChange={(e) => setNewUser({ ...newUser, type: e.target.value })}
           required
         />
         <button type="submit">Create User</button>

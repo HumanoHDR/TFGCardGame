@@ -9,8 +9,8 @@ const Card = ({ card }) => {
   
   return (
     <div className="card">
-      <div className="card-cost">{card.coste}</div>
-      <div className="card-power">{card.poder}</div>
+      <div className="card-cost">{card.cost}</div>
+      <div className="card-power">{card.power}</div>
       <p>{card.name}</p>
     </div>
   );
