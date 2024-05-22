@@ -1,4 +1,5 @@
-﻿using OneCardGame.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using OneCardGame.Data;
 using OneCardGame.Data.Modelos;
 using OneCardGame.Negocio.DTOs;
 using OneCardGame.Negocio.Interfaces;
@@ -39,33 +40,43 @@ namespace OneCardGame.Negocio.Repositorio
                 Username = createUserDto.Username,
                 Password = createUserDto.Password, // En un entorno real, asegúrate de hashear la contraseña
                 Email = createUserDto.Email,
-                Type = createUserDto.Type,
-                Decks = new List<Deck>() // Inicializar la lista de decks
+                Type = "user" // Asignar el tipo "user" automáticamente
             };
 
             // Agregar el usuario al contexto
             _context.Users.Add(user);
             _context.SaveChanges();
 
-            // Crear un deck por defecto para el nuevo usuario
-            var defaultDeck = new Deck
+            // Crear un deck por defecto copiando el deck con ID 1
+            var defaultDeckTemplate = _context.Decks
+                .Include(d => d.DeckCards)
+                .ThenInclude(dc => dc.Card)
+                .FirstOrDefault(d => d.Id == 1);
+
+            if (defaultDeckTemplate != null)
             {
-                Name = "Default Deck",
-                user_id = user.Id
-            };
+                var defaultDeck = new Deck
+                {
+                    Name = "Zoro Red Deck",
+                    user_id = user.Id,
+                    DeckCards = defaultDeckTemplate.DeckCards
+                        .Select(dc => new DeckCard
+                        {
+                            CardId = dc.CardId
+                        })
+                        .ToList()
+                };
 
-            // Agregar el deck por defecto al contexto
-            _context.Decks.Add(defaultDeck);
-            _context.SaveChanges();
-
-            // Devolver el DTO del usuario creado
+                _context.Decks.Add(defaultDeck);
+                _context.SaveChanges();
+            }
             return new UserDto
             {
                 Id = user.Id,
                 Username = user.Username,
                 Email = user.Email,
                 Type = user.Type,
-                Decks = _deckRepository.GetDeckDtos(user.Decks)
+                Decks = _deckRepository.GetDecksByUserId(user.Id)
             };
         }
 
@@ -75,7 +86,6 @@ namespace OneCardGame.Negocio.Repositorio
             if (user != null)
             {
                 user.Username = updateUserDto.Username;
-                user.Password = updateUserDto.Password; // En un entorno real, asegúrate de hashear la contraseña
                 user.Email = updateUserDto.Email;
                 user.Type = updateUserDto.Type;
 
@@ -95,11 +105,36 @@ namespace OneCardGame.Negocio.Repositorio
 
         public void DeleteUser(int id)
         {
-            var user = _context.Users.Find(id);
-            if (user != null)
+            using var transaction = _context.Database.BeginTransaction();
+
+            try
             {
-                _context.Users.Remove(user);
-                _context.SaveChanges();
+                var user = _context.Users.Include(u => u.Decks).FirstOrDefault(u => u.Id == id);
+                if (user != null)
+                {
+                    // Eliminar todas las relaciones de deckcard
+                    var deckIds = user.Decks.Select(d => d.Id).ToList();
+                    var deckCards = _context.Deckcard.Where(dc => deckIds.Contains(dc.DeckId));
+                    _context.Deckcard.RemoveRange(deckCards);
+
+                    // Eliminar todos los decks del usuario
+                    _context.Decks.RemoveRange(user.Decks);
+
+                    // Eliminar el usuario
+                    _context.Users.Remove(user);
+
+                    // Guardar los cambios
+                    _context.SaveChanges();
+
+                    // Confirmar la transacción
+                    transaction.Commit();
+                }
+            }
+            catch
+            {
+                // Revertir la transacción en caso de error
+                transaction.Rollback();
+                throw;
             }
         }
 

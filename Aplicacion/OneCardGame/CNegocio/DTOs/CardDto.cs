@@ -17,7 +17,5 @@ namespace OneCardGame.Negocio.DTOs
         public string Color { get; set; }
 
         public string Attribute { get; set; }
-
-        public ICollection<EffectDto> Effects { get; set; }
     }
 }

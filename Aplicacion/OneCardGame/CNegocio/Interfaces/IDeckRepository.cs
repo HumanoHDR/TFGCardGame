@@ -13,5 +13,7 @@ namespace OneCardGame.Negocio.Interfaces
         void UpdateDeck(int id, DeckDto deckDto);
         void DeleteDeck(int id);
         bool DeckExists(int id);
+        ICollection<DeckDto> GetDecksByUserId(int userId);
+
     }
 }

@@ -36,7 +36,18 @@ namespace TFGCardGame.Server.Controllers
             }
             return Ok(deck);
         }
-
+        [HttpGet("user/{userId}")]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<DeckDto>))]
+        [ProducesResponseType(404)]
+        public IActionResult GetDecksByUserId(int userId)
+        {
+            var decks = _deckRepository.GetDecksByUserId(userId);
+            if (decks == null || !decks.Any())
+            {
+                return NotFound();
+            }
+            return Ok(decks);
+        }
         [HttpPost]
         [ProducesResponseType(201, Type = typeof(DeckDto))]
         [ProducesResponseType(400)]

@@ -12,11 +12,11 @@ namespace OneCardGame.Data
         // Define las propiedades DbSet para cada una de tus entidades
         public DbSet<Card> Card { get; set; }
         public DbSet<Deck> Deck { get; set; }
-        public DbSet<Effect> Effects { get; set; }
         public DbSet<Friendship> Friendships { get; set; }
         public DbSet<Game> Games { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Deck> Decks { get; set; }
+        public DbSet<DeckCard> Deckcard { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -35,6 +35,12 @@ namespace OneCardGame.Data
                 .HasForeignKey(dc => dc.CardId);
 
             modelBuilder.Entity<Deck>()
+                .HasOne(d => d.User)
+                .WithMany(u => u.Decks)
+                .HasForeignKey(d => d.user_id)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Deck>()
                 .HasMany(d => d.DeckCards)
                 .WithOne(dc => dc.Deck)
                 .HasForeignKey(dc => dc.DeckId);
@@ -43,8 +49,6 @@ namespace OneCardGame.Data
                 .HasMany(c => c.DeckCards)
                 .WithOne(dc => dc.Card)
                 .HasForeignKey(dc => dc.CardId);
-
-            // Configurar la propiedad Id como clave primaria en User
             modelBuilder.Entity<User>()
                 .HasKey(u => u.Id);
 
@@ -62,7 +66,7 @@ namespace OneCardGame.Data
             modelBuilder.Entity<Game>()
                 .HasOne(g => g.User)
                 .WithMany(u => u.Games)
-                .HasForeignKey(g => g.UserId)
+                .HasForeignKey(g => g.user_id)
                 .OnDelete(DeleteBehavior.Cascade);
 
             // Configurar la propiedad Id como clave primaria en Game

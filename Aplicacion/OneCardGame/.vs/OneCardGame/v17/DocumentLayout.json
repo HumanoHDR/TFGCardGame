@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cdatos\\modelos\\deckcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\modelos\\deckcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cdatos\\modelos\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\modelos\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\capi\\controllers\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|solutionrelative:capi\\controllers\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\repositorios\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\repositorios\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cdatos\\modelos\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\modelos\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\capi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|solutionrelative:capi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\repositorios\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\cnegocio\\interfaces\\ideckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\interfaces\\ideckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|c:\\users\\luisv\\source\\repos\\onecardgame\\capi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|solutionrelative:capi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,47 +29,57 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 746,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 1248,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeckRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Repositorios\\DeckRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Repositorios\\DeckRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Repositorios\\DeckRepository.cs",
-              "RelativeToolTip": "CNegocio\\Repositorios\\DeckRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T11:04:34.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DecksController.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\Controllers\\DecksController.cs",
-              "RelativeDocumentMoniker": "CAPI\\Controllers\\DecksController.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\Controllers\\DecksController.cs",
-              "RelativeToolTip": "CAPI\\Controllers\\DecksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "CNegocio\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "CNegocio\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T11:03:27.023Z",
+              "WhenOpened": "2024-05-22T10:12:56.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\DataContext.cs",
+              "RelativeDocumentMoniker": "CDatos\\DataContext.cs",
+              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\DataContext.cs",
+              "RelativeToolTip": "CDatos\\DataContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:41:52.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeckDto.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\DeckDto.cs",
-              "RelativeDocumentMoniker": "CNegocio\\DTOs\\DeckDto.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\DeckDto.cs",
-              "RelativeToolTip": "CNegocio\\DTOs\\DeckDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "DocumentIndex": 1,
+              "Title": "DeckCard.cs",
+              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\DeckCard.cs",
+              "RelativeDocumentMoniker": "CDatos\\Modelos\\DeckCard.cs",
+              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\DeckCard.cs",
+              "RelativeToolTip": "CDatos\\Modelos\\DeckCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:52:28.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T18:48:11.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwGUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:48:30.328Z"
             },
             {
               "$type": "Document",
@@ -107,112 +89,9 @@
               "RelativeDocumentMoniker": "CNegocio\\Repositorios\\UserRepository.cs",
               "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Repositorios\\UserRepository.cs",
               "RelativeToolTip": "CNegocio\\Repositorios\\UserRepository.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAcwDEAAAA7AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAIAzwE4AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:55:23.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CardDto.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\CardDto.cs",
-              "RelativeDocumentMoniker": "CNegocio\\DTOs\\CardDto.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\DTOs\\CardDto.cs",
-              "RelativeToolTip": "CNegocio\\DTOs\\CardDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:56:14.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\Deck.cs",
-              "RelativeDocumentMoniker": "CDatos\\Modelos\\Deck.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\Deck.cs",
-              "RelativeToolTip": "CDatos\\Modelos\\Deck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:46:53.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeckCard.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\DeckCard.cs",
-              "RelativeDocumentMoniker": "CDatos\\Modelos\\DeckCard.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\DeckCard.cs",
-              "RelativeToolTip": "CDatos\\Modelos\\DeckCard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:48:11.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "CAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\appsettings.json",
-              "RelativeToolTip": "CAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-20T18:09:40.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\DataContext.cs",
-              "RelativeDocumentMoniker": "CDatos\\DataContext.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\DataContext.cs",
-              "RelativeToolTip": "CDatos\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:09:10.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CardRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Repositorios\\CardRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Repositorios\\CardRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Repositorios\\CardRepository.cs",
-              "RelativeToolTip": "CNegocio\\Repositorios\\CardRepository.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAASwGcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:55:46.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\Card.cs",
-              "RelativeDocumentMoniker": "CDatos\\Modelos\\Card.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\Modelos\\Card.cs",
-              "RelativeToolTip": "CDatos\\Modelos\\Card.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:47:44.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IDeckRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Interfaces\\IDeckRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Interfaces\\IDeckRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\Interfaces\\IDeckRepository.cs",
-              "RelativeToolTip": "CNegocio\\Interfaces\\IDeckRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T11:04:08.156Z"
+              "WhenOpened": "2024-05-21T17:15:06.262Z"
             }
           ]
         }

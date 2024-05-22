@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m7mdI+0Gt58EVImdYl0GGOECeznVjq5t//WpI9PgLDVDa31mqI1U/h0782ADadAHZY32ZARvoj/SCVsLzTz/TQ==",
+  "dgSpecHash": "0lEaba4QCdn/nYlRwhO1MCXyv0Rfg2dTP3fzxXkrkHiTleUUL+yZo0QhL+lScxjMtAst8XZvS9rP3z9aP1nizQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj",
+  "projectFilePath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",

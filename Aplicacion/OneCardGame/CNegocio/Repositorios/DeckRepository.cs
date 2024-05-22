@@ -57,7 +57,7 @@ namespace OneCardGame.Negocio.Repositorio
             {
                 Id = deck.Id,
                 Name = deck.Name,
-                user_id = deck.user_id,
+                user_id = deck.user_id, // Asegúrate de usar el nombre correcto
                 Cards = deck.DeckCards.Select(dc => new CardDto
                 {
                     Id = dc.Card.Id,
@@ -70,6 +70,31 @@ namespace OneCardGame.Negocio.Repositorio
                     Attribute = dc.Card.Attribute
                 }).ToList()
             };
+        }
+
+        public ICollection<DeckDto> GetDecksByUserId(int userId)
+        {
+            return _context.Decks
+                .Where(d => d.user_id == userId) // Filtrar por userId
+                .Include(d => d.DeckCards)
+                .ThenInclude(dc => dc.Card)
+                .Select(deck => new DeckDto
+                {
+                    Id = deck.Id,
+                    Name = deck.Name,
+                    user_id = deck.user_id,
+                    Cards = deck.DeckCards.Select(dc => new CardDto
+                    {
+                        Id = dc.Card.Id,
+                        Name = dc.Card.Name,
+                        Type = dc.Card.Type,
+                        Rarity = dc.Card.Rarity,
+                        Cost = dc.Card.Cost,
+                        Power = dc.Card.Power,
+                        Color = dc.Card.Color,
+                        Attribute = dc.Card.Attribute
+                    }).ToList()
+                }).ToList();
         }
 
         public DeckDto CreateDeck(DeckDto deckDto)
