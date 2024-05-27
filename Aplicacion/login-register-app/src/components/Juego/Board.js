@@ -101,7 +101,6 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           setPlayer1Hand(deck1.splice(0, 5));
           setPlayer2Hand(deck2.splice(0, 5));
           setPlayer1Dons([generateDon()]);
-          setPlayer2Dons([generateDon()]);
         } catch (error) {
           console.error('Error fetching game data:', error);
         }
@@ -157,7 +156,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
   const attackCard = (defender) => {
     if (selectedAttacker) {
       const attacker = { ...selectedAttacker, activo: false };
-      if (defender.id === 0) {
+      if (defender.type === 'leader') {  // Aquí se comprueba si el defensor es un líder
         if (selectedAttacker.power >= defender.power) {
           if (turn % 2 !== 0) {
             setPlayer2Leader((prevLeader) => {
@@ -194,13 +193,13 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       }
       if (turn % 2 !== 0) {
         setPlayer1Field((prevField) => prevField.map((c) => (c.uniqueId === attacker.uniqueId ? attacker : c)));
-        if (attacker.id === 0) setPlayer1Leader(attacker);
+        if (attacker.type === 'leader') setPlayer1Leader(attacker);
       } else {
         setPlayer2Field((prevField) => prevField.map((c) => (c.uniqueId === attacker.uniqueId ? attacker : c)));
-        if (attacker.id === 0) setPlayer2Leader(attacker);
+        if (attacker.type === 'leader') setPlayer2Leader(attacker);
       }
       setSelectedAttacker(null);
-      saveGameState();// Guardar el estado después de un ataque
+      saveGameState(); // Guardar el estado después de un ataque
     }
   };
 
@@ -219,6 +218,16 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
   const handleReturnToMenu = () => {
     localStorage.removeItem('gameState');
     setView('menu');
+  };
+
+  const handleEndGame = () => {
+    if (turn % 2 !== 0) {
+      setWinner('Jugador 2');
+    } else {
+      setWinner('Jugador 1');
+    }
+    setGameOver(true);
+    localStorage.removeItem('gameState'); // Limpiar el estado guardado
   };
 
   if (gameOver) {
@@ -249,8 +258,10 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
         <Cementerio cementerio={player2Cementerio} />
       </div>
       <div className="actions">
-        <button onClick={endTurn}>Terminar turno</button>
         <div>Turno: {turn}</div>
+        <div>{`Turno de: ${turn % 2 !== 0 ? 'Jugador 1' : 'Jugador 2'}`}</div>
+        <button onClick={endTurn}>Terminar turno</button>
+        <button onClick={handleEndGame}>Terminar partida</button>
       </div>
       <div className="player player1">
         <Field

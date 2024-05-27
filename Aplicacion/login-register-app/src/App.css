@@ -6,7 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Black.otf);
+  }
+  @font-face {
+    font-family: 'Crimson Text';
+    src: url(../fonts/CrimsonText-Regular.ttf);
+  }
+  @font-face {
+    font-family: PirateOne;
+    src: url(../fonts/PirataOne-Regular.ttf);
+  }
+  @font-face {
+    font-family: IMFellEnglishSC;
+    src: url(../fonts/IMFellEnglishSC-Regular.ttf);
+  }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

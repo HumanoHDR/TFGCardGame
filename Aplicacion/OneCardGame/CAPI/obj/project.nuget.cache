@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWVv9Zuol8WTfnqOlNjB88fNumqgrHcHL0vBkkfrRwQRzyqMc5XVzOBfATnEsOoaXAE81IEUtACfv//RNRyS1A==",
+  "dgSpecHash": "zM0RESbwIMCzty39gc6DmYgcH4KQPPN1u58TNI25DfI8dGWSkahPiR1mGlV47fTXtAGEIErzWrGCfbf6BO32Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\CAPI.csproj",
+  "projectFilePath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\CAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",

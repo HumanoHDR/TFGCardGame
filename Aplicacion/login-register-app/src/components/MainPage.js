@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './MainPage.css';
 import AdminPage from './AdminPage';
 import DeckPage from './DeckPage';
 import GamePage from './GamePage';
@@ -21,24 +22,32 @@ const MainPage = ({ user, setUser }) => {
         return <AdminPage />;
       default:
         return (
-          <div>
-            <button onClick={() => setView('game')}>Juego</button>
-            <button onClick={() => setView('deck')}>Deck</button>
+          <div className="button-container">
+            <button className="main-button" onClick={() => setView('game')}>Juego</button>
+            <button className="main-button" onClick={() => setView('deck')}>Deck</button>
             {user.type === 'admin' && (
-              <button onClick={() => setView('admin')}>Administrador</button>
+              <button className="main-button admin-button" onClick={() => setView('admin')}>Administrador</button>
             )}
-            <button onClick={handleLogout}>Log Out</button>
+            <button className="main-button logout-button" onClick={handleLogout}>Log Out</button>
           </div>
         );
     }
   };
 
   return (
-    <div>
-      {view !== 'menu' && (
-        <button onClick={() => setView('menu')}>Volver al menú</button>
+    <div className={view === 'game' ? '' : 'main-page'}>
+      {view !== 'game' && (
+        <div className="main-container">
+          {view !== 'menu' && (
+            <button className="main-button" onClick={() => setView('menu')}>Volver al menú</button>
+          )}
+          {view === 'menu' && (
+            <h1 className="main-header">Bienvenido a Bordo</h1>
+          )}
+          {renderContent()}
+        </div>
       )}
-      {renderContent()}
+      {view === 'game' && renderContent()}
     </div>
   );
 };

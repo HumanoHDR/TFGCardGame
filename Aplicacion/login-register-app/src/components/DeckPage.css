@@ -1,76 +1,88 @@
 .deck-container {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container, .deck-container-right {
+  flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cards-container {
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.card, .deck-card {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.deck-card {
+  background-color: #f0f0f0;
+}
+
+.card-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-buttons {
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.save-deck {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.save-deck input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.save-deck button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .deck-container {
+      flex-direction: row;
   }
-  
-  .cards-container, .deck-container-right {
-    flex: 1;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
-  
+
   .cards-container {
-    height: 800px;
-    overflow-y: scroll;
+      height: 800px;
   }
-  
-  .card, .deck-card {
-    border: 1px solid gray;
-    margin: 5px;
-    padding: 5px;
-    cursor: pointer;
-    width: 100px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-  }
-  
-  .deck-card {
-    background-color: #f0f0f0;
-  }
-  
-  .card-count {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .filter-buttons {
-    margin-bottom: 10px;
-  }
-  
-  .filter-buttons button {
-    margin-right: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .save-deck {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .save-deck input {
-    margin-bottom: 10px;
-    padding: 5px;
-  }
-  
-  .save-deck button {
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
+}

@@ -102,7 +102,11 @@ namespace OneCardGame.Negocio.Repositorio
             var deck = new Deck
             {
                 Name = deckDto.Name,
-                user_id = deckDto.user_id
+                user_id = deckDto.user_id,
+                DeckCards = deckDto.Cards.Select(cardDto => new DeckCard
+                {
+                    CardId = cardDto.Id
+                }).ToList()
             };
 
             _context.Decks.Add(deck);

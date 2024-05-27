@@ -56,6 +56,7 @@ namespace OneCardGame.Negocio.Repositorio
         {
             var card = new Card
             {
+                Id = cardDto.Id,
                 Name = cardDto.Name,
                 Type = cardDto.Type,
                 Rarity = cardDto.Rarity,

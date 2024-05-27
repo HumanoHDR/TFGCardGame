@@ -1,0 +1,67 @@
+.admin-page {
+    padding: 20px;
+  }
+  
+  .card-form,
+  .user-form {
+    margin-bottom: 20px;
+  }
+  
+  .card-form input,
+  .user-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .card-form button,
+  .user-form button {
+    padding: 5px 10px;
+  }
+  
+  .cards-list,
+  .users-list {
+    margin-top: 20px;
+  }
+  
+  .card-item,
+  .user-item {
+    margin-bottom: 10px;
+  }
+  
+  .card-item div,
+  .user-item div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-item button,
+  .user-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  
+  .card-search input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  

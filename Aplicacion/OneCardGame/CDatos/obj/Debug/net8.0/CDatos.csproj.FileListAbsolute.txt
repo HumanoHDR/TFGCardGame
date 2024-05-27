@@ -10,3 +10,16 @@ C:\Users\luisv\source\repos\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.dll
 C:\Users\luisv\source\repos\OneCardGame\CDatos\obj\Debug\net8.0\refint\CDatos.dll
 C:\Users\luisv\source\repos\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.pdb
 C:\Users\luisv\source\repos\OneCardGame\CDatos\obj\Debug\net8.0\ref\CDatos.dll
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\bin\Debug\net8.0\CDatos.deps.json
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\bin\Debug\net8.0\CDatos.dll
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\bin\Debug\net8.0\CDatos.pdb
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.csproj.AssemblyReference.cache
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.AssemblyInfoInputs.cache
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.AssemblyInfo.cs
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.csproj.CoreCompileInputs.cache
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.sourcelink.json
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.dll
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\refint\CDatos.dll
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\CDatos.pdb
+C:\Users\luisv\Documents\GitHub\TFGCardGame\Aplicacion\OneCardGame\CDatos\obj\Debug\net8.0\ref\CDatos.dll

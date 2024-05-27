@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\CAPI.csproj": {}
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\CAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\CAPI.csproj": {
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\CAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\CAPI.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\CAPI.csproj",
         "projectName": "CAPI",
-        "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\CAPI.csproj",
+        "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\CAPI.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CAPI\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj": {
-                "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj"
+              "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj": {
+                "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj"
               },
-              "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj": {
-                "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj"
+              "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj": {
+                "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj": {
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj",
         "projectName": "CDatos",
-        "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj",
+        "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj": {
+    "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj",
         "projectName": "CNegocio",
-        "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\CNegocio.csproj",
+        "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\CNegocio.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CNegocio\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,8 +178,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj": {
-                "projectPath": "C:\\Users\\luisv\\source\\repos\\OneCardGame\\CDatos\\CDatos.csproj"
+              "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj": {
+                "projectPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\CDatos.csproj"
               }
             }
           }

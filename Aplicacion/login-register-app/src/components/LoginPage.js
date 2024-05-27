@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './LoginPage.css';
 
 const LoginPage = ({ setUser }) => {
   const [username, setUsername] = useState('');
@@ -32,40 +33,44 @@ const LoginPage = ({ setUser }) => {
   };
 
   return (
-    <div>
-      <h2>{isRegister ? 'Register' : 'Login'}</h2>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        {isRegister && (
-          <>
+    <div className="login-page">
+      <div className="login-container">
+        <div className="login-box">
+          <h2>{isRegister ? 'Register' : 'Login'}</h2>
+          {error && <p className="error-message">{error}</p>}
+          <form onSubmit={handleSubmit}>
             <input
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              placeholder="Username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
               required
             />
-          </>
-        )}
-        <button type="submit">{isRegister ? 'Register' : 'Login'}</button>
-      </form>
-      <button onClick={() => setIsRegister(!isRegister)}>
-        {isRegister ? 'Switch to Login' : 'Switch to Register'}
-      </button>
+            <input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            {isRegister && (
+              <>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </>
+            )}
+            <button type="submit">{isRegister ? 'Register' : 'Login'}</button>
+          </form>
+          <button className="toggle-button" onClick={() => setIsRegister(!isRegister)}>
+            {isRegister ? 'Switch to Login' : 'Switch to Register'}
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

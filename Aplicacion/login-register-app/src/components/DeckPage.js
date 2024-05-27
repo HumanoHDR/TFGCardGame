@@ -99,7 +99,6 @@ const DeckPage = ({ user }) => {
 
     try {
       await axios.post('https://localhost:7042/api/Decks', deckData);
-      alert('Deck saved successfully!');
       console.log(deck)
       setDeck([]);
       setLeader(null);
@@ -121,7 +120,7 @@ const DeckPage = ({ user }) => {
   }, {});
 
   return (
-    <div>
+    <div className="deck-page">
       <h2>Deck Management</h2>
       <select value={selectedDeck} onChange={(e) => {
         setSelectedDeck(e.target.value);
@@ -147,37 +146,33 @@ const DeckPage = ({ user }) => {
               <div
                 key={card.id}
                 className="card"
+                style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
                 onClick={() => addToDeck(card)}
               >
-                <p>{card.name}</p>
-                <p>{card.type}</p>
-                <p>{card.color}</p>
               </div>
             ))}
           </div>
         </div>
-        <div className="deck-container-right">
-          <h3>Your Deck ({deck.length}/60)</h3>
-          <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-            {Object.keys(cardGroups).map((cardId, index) => {
-              const group = cardGroups[cardId];
-              const card = group[0];
-              const count = group.length;
-              return (
-                <div
-                  key={index}
-                  className="deck-card"
-                  onClick={() => removeFromDeck(deck.indexOf(card))}
-                >
-                  <p>{card.name}</p>
-                  <p>{card.type}</p>
-                  <p>{card.color}</p>
-                  {count > 1 && <div className="card-count">{count}</div>}
-                </div>
-              );
-            })}
-          </div>
-          {deck.length === 60 && (
+          <div className="cards-container">
+            <h3>Your Deck ({deck.length}/60)</h3>
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+              {Object.keys(cardGroups).map((cardId, index) => {
+                const group = cardGroups[cardId];
+                const card = group[0];
+                const count = group.length;
+                return (
+                  <div
+                    key={index}
+                    className="deck-card"
+                    onClick={() => removeFromDeck(deck.indexOf(card))}
+                    style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
+                  >
+                    {count > 1 && <div className="card-count">{count}</div>}
+                  </div>
+                );
+              })}
+            </div>
+            {deck.length === 60 && (
             <div className="save-deck">
               <input
                 type="text"
@@ -189,8 +184,9 @@ const DeckPage = ({ user }) => {
               <button onClick={handleSaveDeck}>Save Deck</button>
             </div>
           )}
+          </div>
+          
         </div>
-      </div>
     </div>
   );
 };
