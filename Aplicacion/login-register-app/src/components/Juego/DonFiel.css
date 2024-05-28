@@ -1,37 +1,36 @@
-/* src/components/DonFiel.css */
 .don-fiel {
-    display: flex;
-    gap: 1vw;
-  }
-  
-  .don {
-    width: 10vw;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e0e0e0;
-    border: 1px solid #000;
-    border-radius: 0.5vh;
-    transition: transform 0.2s;
-  }
-  
-  .don.inactive {
-    transform: rotate(90deg);
-    background-color: #b0b0b0;
-  }
-  .donfiel {
-    display: flex;
-    gap: 1vw;
-  }
-  
-  .don-card {
-    padding: 1vw;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-  
-  .don-card.selected {
-    border-color: yellow;
-  }
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  z-index: 100;
+}
+
+.don {
+  width: var(--card-width);
+  height: var(--card-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border: 1px solid #000;
+  border-radius: var(--border-radius);
+  transition: transform 0.2s;
+  background-size: cover; /* Ajustar el tamaño del fondo */
+  background-position: center; /* Centrar el fondo */
+}
+
+.don.inactive {
+  transform: rotate(90deg);
+  background-color: #b0b0b0;
+}
+
+.don-card {
+  padding: 1vw;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.don-card.selected {
+  border-color: yellow;
+}

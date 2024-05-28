@@ -1,13 +1,14 @@
-/* src/components/Leader.css */
 .leader-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
   padding: 1vw;
-  width: 10vw;
+  width: var(--card-width);
   cursor: pointer;
   transition: transform 0.2s;
+  background-size: cover; /* Ajustar el tamaño del fondo */
+  background-position: center; /* Centrar el fondo */
 }
 
 .leader-card.inactive {
@@ -17,12 +18,18 @@
 .leader-name {
   font-size: 2vw;
   font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la legibilidad */
+  border-radius: var(--border-radius);
+  padding: 0.5vw;
 }
 
 .leader-stats {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la legibilidad */
+  border-radius: var(--border-radius);
+  padding: 0.5vw;
 }
 
 .stat {

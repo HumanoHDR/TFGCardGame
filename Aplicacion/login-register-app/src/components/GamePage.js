@@ -39,34 +39,37 @@ const GamePage = ({ user, setView }) => {
 
   return (
     <div style={backgroundStyle}>
-      <div className="game-container">
-        <h2 className="game-header">Juego</h2>
+      
+
         {startGame ? (
           <div className="game-board">
             <Board deck1Id={selectedDeck1} deck2Id={selectedDeck2} />
             <button className="return-button" onClick={() => setView('menu')}>Volver al menú</button>
           </div>
         ) : (
-          <div className="deck-select">
-            <select value={selectedDeck1} onChange={(e) => setSelectedDeck1(e.target.value)}>
-              <option value="">Seleccionar mazo jugador 1</option>
-              {decks.map(deck => (
-                <option key={deck.id} value={deck.id}>{deck.name}</option>
-              ))}
-            </select>
-            <select value={selectedDeck2} onChange={(e) => setSelectedDeck2(e.target.value)}>
-              <option value="">Seleccionar mazo jugador 2</option>
-              {decks.map(deck => (
-                <option key={deck.id} value={deck.id}>{deck.name}</option>
-              ))}
-            </select>
-            <button onClick={handleStartGame} disabled={loading}>
-              {loading ? 'Cargando...' : 'Jugar en Local'}
-            </button>
-            <button className="return-button" onClick={() => setView('menu')}>Volver al menú</button>
+          <div className="game-container">
+            <h2 className="game-header">Juego</h2>
+            <div className="deck-select">
+              <select value={selectedDeck1} onChange={(e) => setSelectedDeck1(e.target.value)}>
+                <option value="">Seleccionar mazo jugador 1</option>
+                {decks.map(deck => (
+                  <option key={deck.id} value={deck.id}>{deck.name}</option>
+                ))}
+              </select>
+              <select value={selectedDeck2} onChange={(e) => setSelectedDeck2(e.target.value)}>
+                <option value="">Seleccionar mazo jugador 2</option>
+                {decks.map(deck => (
+                  <option key={deck.id} value={deck.id}>{deck.name}</option>
+                ))}
+              </select>
+              <button onClick={handleStartGame} disabled={loading}>
+                {loading ? 'Cargando...' : 'Jugar en Local'}
+              </button>
+              <button className="return-button" onClick={() => setView('menu')}>Volver al menú</button>
+            </div>
           </div>
         )}
-      </div>
+      
     </div>
   );
 };

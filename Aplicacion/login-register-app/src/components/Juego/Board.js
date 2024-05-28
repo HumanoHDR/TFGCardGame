@@ -133,7 +133,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       setPlayer1Dons((prevDons) => [generateDon(), generateDon(), ...prevDons].slice(0, 10));
     }
     setSelectedAttacker(null);
-    saveGameState(); // Guardar el estado después de cada turno
+    saveGameState();
   };
 
   const playCard = (card) => {
@@ -150,14 +150,15 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
         setPlayer2Dons((prevDons) => deactivateDons(prevDons, card.cost));
       }
     }
-    saveGameState(); // Guardar el estado después de jugar una carta
+    saveGameState();
   };
 
   const attackCard = (defender) => {
     if (selectedAttacker) {
       const attacker = { ...selectedAttacker, activo: false };
-      if (defender.type === 'leader') {  // Aquí se comprueba si el defensor es un líder
-        if (selectedAttacker.power >= defender.power) {
+  
+      if (defender.type === 'leader') {
+        if (attacker.power >= defender.power) {
           if (turn % 2 !== 0) {
             setPlayer2Leader((prevLeader) => {
               const newVida = prevLeader.vida - 1;
@@ -181,7 +182,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           }
         }
       } else {
-        if (selectedAttacker.power >= defender.power) {
+        if (attacker.power >= defender.power) {
           if (turn % 2 !== 0) {
             setPlayer2Field((prevField) => prevField.filter((c) => c.uniqueId !== defender.uniqueId));
             setPlayer2Cementerio((prevCementerio) => [...prevCementerio, defender]);
@@ -191,13 +192,13 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           }
         }
       }
+  
       if (turn % 2 !== 0) {
         setPlayer1Field((prevField) => prevField.map((c) => (c.uniqueId === attacker.uniqueId ? attacker : c)));
-        if (attacker.type === 'leader') setPlayer1Leader(attacker);
       } else {
         setPlayer2Field((prevField) => prevField.map((c) => (c.uniqueId === attacker.uniqueId ? attacker : c)));
-        if (attacker.type === 'leader') setPlayer2Leader(attacker);
       }
+  
       setSelectedAttacker(null);
       saveGameState(); // Guardar el estado después de un ataque
     }
@@ -214,6 +215,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       attackCard(leader);
     }
   };
+  
 
   const handleReturnToMenu = () => {
     localStorage.removeItem('gameState');
@@ -243,7 +245,9 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
     <div className="board">
       <div className="player player2">
         <Hand hand={player2Hand} playCard={playCard} isActive={turn % 2 === 0} />
-        <DonFiel dons={player2Dons} />
+        <div className="don-container">
+          <DonFiel dons={player2Dons} />
+        </div>
         <Field
           field={player2Field}
           attackCard={attackCard}
@@ -272,7 +276,9 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           onSelectAttacker={handleFieldCardClick}
           isOpponent={turn % 2 === 0}
         />
-        <DonFiel dons={player1Dons} />
+        <div className="don-container">
+          <DonFiel dons={player1Dons} />
+        </div>
         <Hand hand={player1Hand} playCard={playCard} isActive={turn % 2 !== 0} />
         <div onClick={() => handleLeaderClick(player1Leader)}>
           <Leader leader={player1Leader} />

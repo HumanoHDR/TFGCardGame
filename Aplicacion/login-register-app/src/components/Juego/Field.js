@@ -31,3 +31,4 @@ const Field = ({ field, attackCard, isActive, selectedAttacker, onSelectAttacker
 };
 
 export default Field;
+
