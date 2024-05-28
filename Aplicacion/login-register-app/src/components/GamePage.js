@@ -33,7 +33,6 @@ const GamePage = ({ user, setView }) => {
     background: "url('./background/Mar.jpg') no-repeat center center fixed",
     backgroundSize: 'cover',
     minHeight: '100vh',
-    padding: '20px',
     boxSizing: 'border-box'
   };
 

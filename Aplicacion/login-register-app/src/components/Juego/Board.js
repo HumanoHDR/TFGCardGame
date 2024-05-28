@@ -233,12 +233,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
   };
 
   if (gameOver) {
-    return (
-      <div className="game-over">
-        <h2>{`¡${winner} ha ganado!`}</h2>
-        <button onClick={handleReturnToMenu}>Volver al menú</button>
-      </div>
-    );
+    return ( handleReturnToMenu);
   }
 
   return (

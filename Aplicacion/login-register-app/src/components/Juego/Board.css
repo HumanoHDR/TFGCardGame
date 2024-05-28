@@ -56,11 +56,11 @@ body, html {
   justify-content: center;
   z-index: 1; /* Asegurarse de que las cartas en la mano estén sobre los dones */
 }
-
 /* Estilos para el campo */
 .field {
   display: flex;
   gap: 1vw;
+  height: 15vh;
   justify-content: center;
   margin: 1vh 0;
   flex-wrap: nowrap; /* Asegurarse de que las cartas se dispongan en una sola línea */
@@ -120,13 +120,21 @@ body, html {
 }
 
 .player1 .leader-card {
-  bottom: 20vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  bottom: 39vh; /* Ajustar para que no esté debajo de las cartas de la mano */
 }
 
 .player2 .leader-card {
-  top: 20vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  top: 34vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+}
+.player2 .don-container
+{
+  margin-top: -7vh;
 }
 
+.player1 .don-container
+{
+  margin-bottom: -2vh;
+}
 /* Estilos para las acciones */
 .actions {
   position: absolute;
