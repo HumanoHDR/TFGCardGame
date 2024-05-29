@@ -1,6 +1,6 @@
 :root {
-  --card-width: 10vw;
-  --card-height: 15vh;
+  --card-width: 6vw;
+  --card-height: 17vh;
   --border-radius: 0.5vh;
   --font-size: 1.5vh;
   --button-bg-color: #4CAF50;
@@ -133,7 +133,7 @@ body, html {
 
 .player1 .don-container
 {
-  margin-bottom: -2vh;
+  margin-bottom: -5vh;
 }
 /* Estilos para las acciones */
 .actions {
