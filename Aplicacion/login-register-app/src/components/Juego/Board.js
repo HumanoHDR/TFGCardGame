@@ -26,7 +26,6 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
   const [gameOver, setGameOver] = useState(false);
   const [winner, setWinner] = useState('');
 
-  // Guardar estado en localStorage
   const saveGameState = () => {
     const gameState = {
       player1Deck,
@@ -47,7 +46,6 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
     localStorage.setItem('gameState', JSON.stringify(gameState));
   };
 
-  // Restaurar estado desde localStorage
   useEffect(() => {
     const savedGameState = localStorage.getItem('gameState');
     if (savedGameState) {
@@ -153,6 +151,38 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
     saveGameState();
   };
 
+  const handleDonClick = (index) => {
+    if (turn % 2 !== 0) {
+      setPlayer1Dons((prevDons) => {
+        const newDons = [...prevDons];
+        newDons[index].selected = !newDons[index].selected;
+        return newDons;
+      });
+    } else {
+      setPlayer2Dons((prevDons) => {
+        const newDons = [...prevDons];
+        newDons[index].selected = !newDons[index].selected;
+        return newDons;
+      });
+    }
+  };
+
+  const addDonsToCard = (card) => {
+    if (turn % 2 !== 0) {
+      const selectedDons = player1Dons.filter(don => don.selected).length;
+      if (selectedDons > 0) {
+        setPlayer1Field((prevField) => prevField.map(c => c.uniqueId === card.uniqueId ? { ...c, power: c.power + selectedDons } : c));
+        setPlayer1Dons((prevDons) => deactivateDons(prevDons, selectedDons, true));
+      }
+    } else {
+      const selectedDons = player2Dons.filter(don => don.selected).length;
+      if (selectedDons > 0) {
+        setPlayer2Field((prevField) => prevField.map(c => c.uniqueId === card.uniqueId ? { ...c, power: c.power + selectedDons } : c));
+        setPlayer2Dons((prevDons) => deactivateDons(prevDons, selectedDons, true));
+      }
+    }
+  };
+
   const attackCard = (defender) => {
     if (selectedAttacker) {
       const attacker = { ...selectedAttacker, activo: false };
@@ -165,7 +195,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
               if (newVida <= 0) {
                 setGameOver(true);
                 setWinner('Jugador 1');
-                localStorage.removeItem('gameState'); // Limpiar el estado guardado
+                localStorage.removeItem('gameState');
               }
               return { ...prevLeader, vida: newVida };
             });
@@ -175,7 +205,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
               if (newVida <= 0) {
                 setGameOver(true);
                 setWinner('Jugador 2');
-                localStorage.removeItem('gameState'); // Limpiar el estado guardado
+                localStorage.removeItem('gameState');
               }
               return { ...prevLeader, vida: newVida };
             });
@@ -200,7 +230,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       }
   
       setSelectedAttacker(null);
-      saveGameState(); // Guardar el estado después de un ataque
+      saveGameState();
     }
   };
 
@@ -217,11 +247,6 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
   };
   
 
-  const handleReturnToMenu = () => {
-    localStorage.removeItem('gameState');
-    setView('menu');
-  };
-
   const handleEndGame = () => {
     if (turn % 2 !== 0) {
       setWinner('Jugador 2');
@@ -229,11 +254,16 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       setWinner('Jugador 1');
     }
     setGameOver(true);
-    localStorage.removeItem('gameState'); // Limpiar el estado guardado
+    localStorage.removeItem('gameState');
   };
 
   if (gameOver) {
-    return ( handleReturnToMenu);
+    return (
+      <div className="game-over">
+        <h1>¡Juego terminado!</h1>
+        <p>El ganador es: {winner}</p>
+      </div>
+    );
   }
 
   return (
@@ -241,7 +271,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
       <div className="player player2">
         <Hand hand={player2Hand} playCard={playCard} isActive={turn % 2 === 0} />
         <div className="don-container">
-          <DonFiel dons={player2Dons} />
+          <DonFiel dons={player2Dons} onDonClick={handleDonClick} />
         </div>
         <Field
           field={player2Field}
@@ -250,6 +280,7 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           selectedAttacker={selectedAttacker}
           onSelectAttacker={handleFieldCardClick}
           isOpponent={turn % 2 !== 0}
+          addDonsToCard={addDonsToCard}
         />
         <div onClick={() => handleLeaderClick(player2Leader)}>
           <Leader leader={player2Leader} />
@@ -270,9 +301,10 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           selectedAttacker={selectedAttacker}
           onSelectAttacker={handleFieldCardClick}
           isOpponent={turn % 2 === 0}
+          addDonsToCard={addDonsToCard}
         />
         <div className="don-container">
-          <DonFiel dons={player1Dons} />
+          <DonFiel dons={player1Dons} onDonClick={handleDonClick} />
         </div>
         <Hand hand={player1Hand} playCard={playCard} isActive={turn % 2 !== 0} />
         <div onClick={() => handleLeaderClick(player1Leader)}>
@@ -283,5 +315,6 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
     </div>
   );
 };
+
 
 export default Board;

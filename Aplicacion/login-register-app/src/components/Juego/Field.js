@@ -1,4 +1,4 @@
-// src/components/Field.js
+
 import React from 'react';
 import Card from './Card';
 import './Field.css';
@@ -7,8 +7,6 @@ const Field = ({ field, attackCard, isActive, selectedAttacker, onSelectAttacker
   const handleCardClick = (card) => {
     if (isActive && !selectedAttacker && !isOpponent && card.activo) {
       onSelectAttacker(card);
-    } else if (isActive && !isOpponent) {
-      addDonsToCard(card);
     }
   };
 
@@ -24,6 +22,9 @@ const Field = ({ field, attackCard, isActive, selectedAttacker, onSelectAttacker
           {isOpponent && selectedAttacker && !card.activo && (
             <button className="attack-here-button" onClick={() => attackCard(card)}>Atacar aquí</button>
           )}
+          {!isOpponent && selectedAttacker === card && (
+            <button className="add-dons-button" onClick={() => addDonsToCard(card)}>Añadir Dons</button>
+          )}
         </div>
       ))}
     </div>
@@ -31,4 +32,3 @@ const Field = ({ field, attackCard, isActive, selectedAttacker, onSelectAttacker
 };
 
 export default Field;
-

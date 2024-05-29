@@ -18,10 +18,12 @@ const Hand = ({ hand, playCard, isActive }) => {
   };
 
   const scrollHand = (direction) => {
-    if (direction === 'left') {
-      handRef.current.scrollBy({ left: -200, behavior: 'smooth' });
-    } else {
-      handRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    if (handRef.current) {
+      if (direction === 'left') {
+        handRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+      } else {
+        handRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+      }
     }
   };
 

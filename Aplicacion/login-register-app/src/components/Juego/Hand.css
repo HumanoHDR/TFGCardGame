@@ -2,9 +2,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%; /* Asegurar que el contenedor ocupe el ancho completo */
+  width: 80vw; /* Ajustar el ancho del contenedor a 80% del viewport */
   overflow: hidden; /* Ocultar las cartas que se salen del contenedor */
-  height: 25vh; /* Aumentar la altura del contenedor de la mano */
+  height: 25vh; /* Asegurar que la altura del contenedor sea suficiente */
+  margin: 0 auto; /* Centrando el contenedor */
 }
 
 .hand {
@@ -13,7 +14,7 @@
   justify-content: flex-start;
   margin-top: 0; /* Ajustar para que los dones queden debajo */
   z-index: 1;
-  overflow-x: auto; /* Permitir el desplazamiento horizontal */
+  overflow: hidden; /* Ocultar las cartas que se salen del contenedor */
   white-space: nowrap; /* Evitar que las cartas salten a la siguiente línea */
   padding: 1vh; /* Añadir algo de padding para mejorar la apariencia */
   flex-grow: 1; /* Permitir que la mano ocupe el espacio disponible */
@@ -82,7 +83,7 @@
 .scroll-button.right {
   right: 0;
 }
-::-webkit-scrollbar
-{
-display: none;
+
+::-webkit-scrollbar {
+  display: none; /* Ocultar la barra de desplazamiento */
 }
