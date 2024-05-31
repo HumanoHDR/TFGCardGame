@@ -11,6 +11,7 @@ const DeckPage = ({ user }) => {
   const [loading, setLoading] = useState(true);
   const [leader, setLeader] = useState(null);
   const [deckName, setDeckName] = useState('');
+  const [selectedCard, setSelectedCard] = useState(null);
 
   useEffect(() => {
     fetchCards();
@@ -131,6 +132,18 @@ const DeckPage = ({ user }) => {
           <option key={deck.id} value={deck.id}>{deck.name}</option>
         ))}
       </select>
+      {deck.length === 60 && (
+        <div className="save-deck">
+          <input
+            type="text"
+            placeholder="Deck Name"
+            value={deckName}
+            onChange={(e) => setDeckName(e.target.value)}
+            required
+          />
+          <button onClick={handleSaveDeck}>Save Deck</button>
+        </div>
+      )}
       <div className="deck-container">
         <div className="cards-container">
           <h3>Available Cards</h3>
@@ -148,6 +161,8 @@ const DeckPage = ({ user }) => {
                 className="card"
                 style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
                 onClick={() => addToDeck(card)}
+                onMouseEnter={() => setSelectedCard(card)}
+                onMouseLeave={() => setSelectedCard(null)}
               >
               </div>
             ))}
@@ -166,6 +181,8 @@ const DeckPage = ({ user }) => {
                   className="card"
                   onClick={() => removeFromDeck(deck.indexOf(card))}
                   style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
+                  onMouseEnter={() => setSelectedCard(card)}
+                  onMouseLeave={() => setSelectedCard(null)}
                 >
                   {count > 1 && <div className="card-count">{count}</div>}
                 </div>
@@ -174,18 +191,14 @@ const DeckPage = ({ user }) => {
           </div>
         </div>
       </div>
-      {deck.length === 60 && (
-        <div className="save-deck">
-          <input
-            type="text"
-            placeholder="Deck Name"
-            value={deckName}
-            onChange={(e) => setDeckName(e.target.value)}
-            required
+      <div className="selected-card-preview">
+        {selectedCard && (
+          <div 
+            className="card-preview"
+            style={{ backgroundImage: `url('./OP01/${selectedCard.id}.png')` }}
           />
-          <button onClick={handleSaveDeck}>Save Deck</button>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
