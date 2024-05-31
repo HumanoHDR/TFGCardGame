@@ -153,40 +153,39 @@ const DeckPage = ({ user }) => {
             ))}
           </div>
         </div>
-          <div className="cards-container">
-            <h3>Your Deck ({deck.length}/60)</h3>
-            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-              {Object.keys(cardGroups).map((cardId, index) => {
-                const group = cardGroups[cardId];
-                const card = group[0];
-                const count = group.length;
-                return (
-                  <div
-                    key={index}
-                    className="deck-card"
-                    onClick={() => removeFromDeck(deck.indexOf(card))}
-                    style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
-                  >
-                    {count > 1 && <div className="card-count">{count}</div>}
-                  </div>
-                );
-              })}
-            </div>
-            {deck.length === 60 && (
-            <div className="save-deck">
-              <input
-                type="text"
-                placeholder="Deck Name"
-                value={deckName}
-                onChange={(e) => setDeckName(e.target.value)}
-                required
-              />
-              <button onClick={handleSaveDeck}>Save Deck</button>
-            </div>
-          )}
+        <div className="cards-container">
+          <h3>Your Deck ({deck.length}/60)</h3>
+          <div className="deck-cards-container" style={{ display: 'flex', flexWrap: 'wrap' }}>
+            {Object.keys(cardGroups).map((cardId, index) => {
+              const group = cardGroups[cardId];
+              const card = group[0];
+              const count = group.length;
+              return (
+                <div
+                  key={index}
+                  className="card"
+                  onClick={() => removeFromDeck(deck.indexOf(card))}
+                  style={{ backgroundImage: `url('./OP01/${card.id}.png')`, backgroundSize: 'cover' }}
+                >
+                  {count > 1 && <div className="card-count">{count}</div>}
+                </div>
+              );
+            })}
           </div>
-          
         </div>
+      </div>
+      {deck.length === 60 && (
+        <div className="save-deck">
+          <input
+            type="text"
+            placeholder="Deck Name"
+            value={deckName}
+            onChange={(e) => setDeckName(e.target.value)}
+            required
+          />
+          <button onClick={handleSaveDeck}>Save Deck</button>
+        </div>
+      )}
     </div>
   );
 };

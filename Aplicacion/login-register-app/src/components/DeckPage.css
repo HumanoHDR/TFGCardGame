@@ -1,3 +1,4 @@
+/* Estilos existentes */
 .deck-container {
   display: flex;
   flex-direction: column;
@@ -14,24 +15,6 @@
   height: 60vh;
   overflow-y: auto;
 }
-
-.card, .deck-card {
-  border: 1px solid gray;
-  margin: 5px;
-  padding: 5px;
-  cursor: pointer;
-  width: 150px;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-}
-
 .deck-card {
   background-color: #f0f0f0;
 }
@@ -77,6 +60,12 @@
   cursor: pointer;
 }
 
+
+.deck-cards-container {
+  height: 50vh;
+  overflow-y: auto;
+}
+
 @media (min-width: 768px) {
   .deck-container {
       flex-direction: row;
@@ -85,4 +74,25 @@
   .cards-container {
       height: 800px;
   }
+}
+
+.card {
+  border: 1px solid gray;
+  cursor: pointer;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s;
+}
+
+.card:hover, .deck-card:hover {
+  transform: scale(2.2);
+  z-index: 10;
 }
