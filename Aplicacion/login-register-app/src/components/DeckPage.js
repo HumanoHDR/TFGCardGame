@@ -195,7 +195,7 @@ const DeckPage = ({ user }) => {
         {selectedCard && (
           <div 
             className="card-preview"
-            style={{ backgroundImage: `url('./OP01/${selectedCard.id}.png')` }}
+            style={{ backgroundImage: `url('./OP01/${selectedCard.id}.png')`, backgroundSize: 'contain' }}
           />
         )}
       </div>
