@@ -22,9 +22,6 @@ const Field = ({ field, attackCard, isActive, selectedAttacker, onSelectAttacker
           {isOpponent && selectedAttacker && !card.activo && (
             <button className="attack-here-button" onClick={() => attackCard(card)}>Atacar aquí</button>
           )}
-          {!isOpponent && selectedAttacker === card && (
-            <button className="add-dons-button" onClick={() => addDonsToCard(card)}>Añadir Dons</button>
-          )}
         </div>
       ))}
     </div>

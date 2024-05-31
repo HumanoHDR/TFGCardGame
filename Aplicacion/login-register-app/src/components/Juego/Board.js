@@ -301,10 +301,9 @@ const Board = ({ deck1Id, deck2Id, setView }) => {
           selectedAttacker={selectedAttacker}
           onSelectAttacker={handleFieldCardClick}
           isOpponent={turn % 2 === 0}
-          addDonsToCard={addDonsToCard}
         />
         <div className="don-container">
-          <DonFiel dons={player1Dons} onDonClick={handleDonClick} />
+          <DonFiel dons={player1Dons}/>
         </div>
         <Hand hand={player1Hand} playCard={playCard} isActive={turn % 2 !== 0} />
         <div onClick={() => handleLeaderClick(player1Leader)}>

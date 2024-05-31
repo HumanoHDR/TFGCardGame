@@ -78,10 +78,10 @@
 
 .selected-card-preview {
   position: fixed;
-  top: 1vh;
-  right: 1vh;
-  width: 20vh;
-  height: 35vh;
+  top: 0.5vh;
+  right: 0.5vh;
+  width: 260px;
+  height: 360px;
   z-index: 1000;
   border-radius: 10px;
   background-size: contain;
@@ -95,10 +95,10 @@
   height: 100%;
 }
 .card {
-  background-size: cover; /* Esto asegura que la imagen cubra todo el div */
-  background-position: center; /* Esto centra la imagen en el div */
-  width: 100px; /* Ajusta el tamaño según sea necesario */
-  height: 150px; /* Ajusta el tamaño según sea necesario */
+  background-size: cover; 
+  background-position: center; 
+  width: 100px; 
+  height: 150px;
   position: relative;
   margin: 10px;
 }
