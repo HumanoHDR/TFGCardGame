@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-05-2024 a las 07:34:39
+-- Tiempo de generación: 08-06-2024 a las 16:45:20
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -226,13 +226,8 @@ INSERT INTO `deckcard` (`id`, `DeckId`, `CardId`) VALUES
 (16, 1, 'OP01-007'),
 (17, 1, 'OP01-007'),
 (18, 1, 'OP01-008'),
-(19, 1, 'OP01-008'),
-(20, 1, 'OP01-008'),
 (21, 1, 'OP01-008'),
-(22, 1, 'OP01-009'),
 (23, 1, 'OP01-009'),
-(24, 1, 'OP01-009'),
-(25, 1, 'OP01-009'),
 (26, 1, 'OP01-010'),
 (27, 1, 'OP01-010'),
 (28, 1, 'OP01-010'),
@@ -458,13 +453,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `deck`
 --
 ALTER TABLE `deck`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `deckcard`
 --
 ALTER TABLE `deckcard`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=186;
 
 --
 -- AUTO_INCREMENT de la tabla `effect`

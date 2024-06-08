@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\cnegocio\\repositorios\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\cnegocio\\repositorios\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61B047D5-5AF6-4940-8057-1625FD8CB442}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\cnegocio\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\cnegocio\\repositorios\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF07EBD-EBC5-40CE-85CE-047D3A8359DB}|CNegocio\\CNegocio.csproj|solutionrelative:cnegocio\\repositorios\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|c:\\users\\luisv\\documents\\github\\tfgcardgame\\aplicacion\\onecardgame\\capi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C0568A-8B9D-4DFD-ACBA-4559551BA7E3}|CAPI\\CAPI.csproj|solutionrelative:capi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,75 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CardRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\CardRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Repositorios\\CardRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\CardRepository.cs",
-              "RelativeToolTip": "CNegocio\\Repositorios\\CardRepository.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAC8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T09:52:18.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeckRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\DeckRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Repositorios\\DeckRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\DeckRepository.cs",
-              "RelativeToolTip": "CNegocio\\Repositorios\\DeckRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T08:09:50.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\DTOs\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "CNegocio\\DTOs\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\DTOs\\UpdateUserDto.cs",
-              "RelativeToolTip": "CNegocio\\DTOs\\UpdateUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T10:12:56.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\DataContext.cs",
               "RelativeDocumentMoniker": "CDatos\\DataContext.cs",
               "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CDatos\\DataContext.cs",
               "RelativeToolTip": "CDatos\\DataContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA0wDMAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T09:41:52.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "CAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "CAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwGUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T17:48:30.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CNegocio\\Repositorios\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\luisv\\Documents\\GitHub\\TFGCardGame\\Aplicacion\\OneCardGame\\CNegocio\\Repositorios\\UserRepository.cs",
-              "RelativeToolTip": "CNegocio\\Repositorios\\UserRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAIAzwE4AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T17:15:06.262Z"
+              "WhenOpened": "2024-06-06T21:55:03.885Z",
+              "EditorCaption": ""
             }
           ]
         }
