@@ -1,7 +1,10 @@
 .admin-page {
     padding: 20px;
   }
-  
+  .users-view ,cards-view
+  {
+  display: flex;
+  }
   .card-form,
   .user-form {
     margin-bottom: 20px;
@@ -12,7 +15,7 @@
     display: block;
     margin-bottom: 10px;
     padding: 5px;
-    width: 200px;
+    width: 100px;
   }
   
   .card-form button,
@@ -64,4 +67,40 @@
     padding: 5px;
     width: 200px;
   }
-  
+  .admin-page {
+    padding: 20px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.cards-view {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards-list {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px; /* Asegura que no haya solapamiento con la barra de desplazamiento */
+}
+
+.user-item,
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.newEnd
+{
+  height: 200px;
+}

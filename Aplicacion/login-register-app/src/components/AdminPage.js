@@ -270,7 +270,11 @@ const AdminPage = () => {
               }}
             />
           </div>
-
+          <div className="pagination">
+            <button disabled={currentPage === 1} onClick={() => handleChangePage(currentPage - 1)}>Anterior</button>
+            <span>Página {currentPage} de {totalPages}</span>
+            <button disabled={currentPage === totalPages} onClick={() => handleChangePage(currentPage + 1)}>Siguiente</button>
+          </div>
           <div className="cards-list">
             <h3>Lista de Cartas</h3>
             {currentCards.map(card => (
@@ -330,11 +334,7 @@ const AdminPage = () => {
               </div>
             ))}
           </div>
-
-          <div className="pagination">
-            <button disabled={currentPage === 1} onClick={() => handleChangePage(currentPage - 1)}>Anterior</button>
-            <span>Página {currentPage} de {totalPages}</span>
-            <button disabled={currentPage === totalPages} onClick={() => handleChangePage(currentPage + 1)}>Siguiente</button>
+          <div className="newEnd">
           </div>
         </div>
       )}

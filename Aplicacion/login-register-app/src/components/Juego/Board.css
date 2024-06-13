@@ -120,11 +120,13 @@ body, html {
 }
 
 .player1 .leader-card {
-  bottom: 39vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  bottom: 30vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  position: fixed;
 }
 
 .player2 .leader-card {
-  top: 34vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  top: 30vh; /* Ajustar para que no esté debajo de las cartas de la mano */
+  position: fixed;
 }
 .player2 .don-container
 {
